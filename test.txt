@@ -1,1 +1,2 @@
  sudo docker run -d --rm --name n8n -p 5678:5678 -e GENERIC_TIMEZONE="Asia/Seoul" -e TZ="Asia/Seoul" -e WEBHOOK_URL="https://75e4809b8826.ngrok-free.app/" -v n8n_data:/home/node/.n8n -v n8n_uploads:/home/node/temp docker.n8n.io/n8nio/n8n:latest start
+dddd
